@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "consortium/messy-consortium",
+    "id": "messy-consortium",
     "type": "consortium"
 }

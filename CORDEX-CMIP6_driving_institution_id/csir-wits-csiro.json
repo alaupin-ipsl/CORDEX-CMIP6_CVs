@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
-    "id": "consortium/ec-earth-consortium",
+    "id": "csir-wits-csiro",
     "type": "consortium"
 }
