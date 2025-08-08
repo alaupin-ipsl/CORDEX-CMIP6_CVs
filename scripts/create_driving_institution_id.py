@@ -41,6 +41,7 @@ for item in data:
         for orga in ev.get_all_terms_in_data_descriptor("organisation"):
             if orga.drs_name == item:
                 found_inst = orga
+                found_inst.id = found_inst.id.replace("consortium/", "")
                 break
 
     if found_inst is None:
@@ -53,7 +54,7 @@ for item in data:
             "type": found_inst.type,
         }
         # print(dict_to_save)
-        print(save_dir)
-        print(found_inst)
+        # print(save_dir)
+        # print(found_inst)
         with open(Path(save_dir) / f"{found_inst.id}.json", "w") as f:
             json.dump(dict_to_save, f, indent=4)
