@@ -2,7 +2,7 @@
     "@context": {
         "id": "@id",
         "type": "@type",
-        "@base": "https://espri-mod.github.io/mip-cmor-tables/version_realization/",
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/contact/",
         "@vocab": "http://schema.org/"
     }
 }
