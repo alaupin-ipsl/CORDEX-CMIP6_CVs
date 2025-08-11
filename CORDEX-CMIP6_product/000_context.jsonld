@@ -1,8 +1,11 @@
 {
     "@context": {
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/product/",
+        "@vocab": "http://schema.org/",
         "id": "@id",
         "type": "@type",
-        "@base": "https://espri-mod.github.io/mip-cmor-tables/contact/",
-        "contact": "https://espri-mod.github.io/mip-cmor-tables/contact"
+        "description": {
+            "@id": "https://schema.org/description"
+        }
     }
 }
