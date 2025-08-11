@@ -1,6 +1,6 @@
 {
     "@context": {
-        "@base": "https://espri-mod.github.io/mip-cmor-tables/test_pour_voir_commennt_ca_marche/",
+        "@base": "https://espri-mod.github.io/mip-cmor-tables/source_type/",
         "@vocab": "http://schema.org/",
         "id": "@id",
         "type": "@type"
