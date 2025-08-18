@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
     "id": "dwd-bsh",
-    "type": "consortium"
+    "type": "organisation"
 }

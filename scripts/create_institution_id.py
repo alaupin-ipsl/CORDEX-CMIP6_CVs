@@ -50,7 +50,7 @@ for item in data:
         dict_to_save = {
             "@context": "000_context.jsonld",
             "id": found_inst.id,
-            "type": found_inst.type,
+            "type": "organisation",
         }
         # print(dict_to_save)
         # print(save_dir)

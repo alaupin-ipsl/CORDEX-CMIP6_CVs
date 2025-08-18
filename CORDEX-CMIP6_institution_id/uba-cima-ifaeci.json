@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
     "id": "uba-cima-ifaeci",
-    "type": "consortium"
+    "type": "organisation"
 }
