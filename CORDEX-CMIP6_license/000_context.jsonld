@@ -4,13 +4,10 @@
         "@vocab": "http://schema.org/",
         "id": "@id",
         "type": "@type",
-        "conditions": {
-            "@id": "https://schema.org/description"
+        "license": {
+            "@id": "https://schema.org/license"
         },
-        "long_name": {
-            "@id": "https://schema.org/name"
-        },
-        "license_url": {
+        "url": {
             "@id": "https://schema.org/url"
         }
     }

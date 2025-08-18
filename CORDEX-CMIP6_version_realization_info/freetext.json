@@ -1,5 +1,5 @@
 {
     "@context": "000_context.jsonld",
     "id": "freetext",
-    "type": "version_realization_info"
+    "type": "regex"
 }
